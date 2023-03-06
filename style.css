@@ -1,0 +1,29 @@
+.bg-c {
+    background-color: #FFF3C8;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.min-size {
+    min-height: 80vh;
+}
+
+
+
+.items-inner {
+    height: 20vh;
+    background-color: #D08C98;
+    text-align: center;
+    padding: 1em;
+}
+
+.items-inner:hover {
+    transform: scale(1.02);
+}
+
+.items-img {
+    object-fit: cover;
+    object-position: center;
+    height: 80%;
+    width: 100%;
+}
